@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personalize a pagina</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<header>
+	<div id="top">
+	</div>
+	<nav class="aba">
+		<ul id="nav">
+			<li><a href="#">aba1</a></li>
+		</ul>
+	</nav>
+</header>
+<div id="middle">
+	<br><h1>Estilize!</h1><br>
+	<input type="text" name="titulo" id="titulo" placeholder="Titulo">
+	<input type="color" name="cor_topo" id="cortopo" onchange="AlteraTop()">
+
+	<input type="text" name="asidetext" id="asidetext" placeholder="texto á esquerda">
+	<input type="color" name="cor_aside" id="coraside" onchange="AlteraAside()">
+
+	<input type="text" name="bottomtext" id="bottomtext" placeholder="texto abaixo">
+	<input type="color" name="cor_bottom" id="corbottom" onchange="AlteraBottom()">
+
+
+	<input type="number" name="NAbas" id="NAbas" placeholder="Nº de abas" onchange="configaba()">
+	<input type="color" name="colorAbas" id="colorAbas">
+
+	<br><br>
+
+	<label for="backcolor">Fundo:</label>
+	<input type="color" name="cor_bottom" id="backcolor" onchange="CorFundo()">
+
+	<input type="submit" name="send" id="send" onclick="addAba()" value="Criar abas">
+</div>
+<aside>
+	<div id="aside">
+		
+	</div>
+</aside>
+<footer>
+	<div id="bottom">
+		
+	</div>
+</footer>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
