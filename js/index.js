@@ -46,17 +46,17 @@ function addAba(){
 
 	let pos = Math.ceil(Math.random() * 10)
 	if (pos < 3){
-		linkaba.value = 'www.instagram.com'
+		linkaba.value = 'https://www.instagram.com'
 		linkaba.setAttribute('href', linkaba.value)
 		linkaba.appendChild(document.createTextNode('instagram'))
 		
 	}else if(pos > 3 && pos < 7){
-		linkaba.value = 'www.google.com'
+		linkaba.value = 'https://www.google.com'
 		linkaba.setAttribute('href', linkaba.value)
 		linkaba.appendChild(document.createTextNode('google'))
 		
 	}else{
-		linkaba.value = 'www.youtube.com'
+		linkaba.value = 'https://www.youtube.com'
 		linkaba.setAttribute('href', linkaba.value)
 		linkaba.appendChild(document.createTextNode('youtube'))
 		
